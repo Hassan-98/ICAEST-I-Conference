@@ -1,0 +1,106 @@
+/* This Stylesheet Is Made For Styling The Header For Registration & Program Pages */
+
+/************ Start Header Style ************/
+header.progHeader {
+    width: 100%;
+    background: url("../images/con-prog1.jpg") fixed no-repeat;
+    background-size: cover;
+}
+header.regHeader {
+    width: 100%;
+    background: url("../images/reg-header.jpg") fixed no-repeat;
+    background-size: cover;
+}
+header.NFHeader {
+    width: 100%;
+    background: url("../images/nf.jpg") fixed no-repeat;
+    background-size: cover;
+}
+header .header {
+    padding: 180px 25px 80px 40px;
+    position: static;
+    -webkit-transform: translate(0);
+    -ms-transform: translate(0);
+    transform: translate(0);
+    width: 100%;
+}
+header .abbr {
+    font-size: 50px;
+}
+header .name {
+    font-size: 20px;
+    font-weight: normal;
+}
+header .navlink {
+    color: rgb(165, 165, 165);
+}
+header .navlink a {
+    color: rgb(165, 165, 165);
+    font-weight: bold;
+}
+
+@media(max-width:576px) {
+    header .abbr {
+        font-size: 32px;
+    }
+    header .header {
+        padding: 150px 10px 80px;
+    }
+    header .name {
+        font-size: 16px;
+    }
+}
+@media(max-width:440px) {
+    header .abbr {
+        font-size: 25px;
+    }
+}
+/************ End Header Style ************/
+
+/************ Start Not Found Page Styles ************/
+.nf {
+    padding: 150px 0 200px;
+    color: #FF8800;
+}
+.nf h1 {
+    font-family: Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 150px;
+    font-weight: bolder;
+}
+.nf h2 {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    margin: 15px 0;
+}
+.btn-nf {
+    font-size: 18px;
+    border: 2px solid #FF8800;
+    background: #fff;
+    color: #FF8800;
+    padding: 10px 50px;
+    margin-top: 20px;
+    font-weight: bold;
+    outline: none;
+}
+.btn-nf:hover {
+    background: #FF8800;
+    color: #fff;
+}
+
+@media (max-width: 576px) {
+    .nf {
+        padding: 120px 0;
+        color: #FF8800;
+    }
+    .nf h1 {
+        font-size: 100px;
+    }
+    .nf img {
+        width: 100px;
+    }
+    .btn-nf {
+        font-size: 16px;
+        padding: 10px 20px;
+    }
+}
+/************ End Not Found Page Styles ************/
